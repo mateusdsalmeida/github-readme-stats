@@ -1,12 +1,9 @@
 import core from "@actions/core";
 import github from "@actions/github";
 import ColorContrastChecker from "color-contrast-checker";
-import * as dotenv from "dotenv";
 import Hjson from "hjson";
 import snakeCase from "lodash.snakecase";
 import parse from "parse-diff";
-
-dotenv.config();
 
 const OWNER = "anuraghazra";
 const REPO = "github-readme-stats";
